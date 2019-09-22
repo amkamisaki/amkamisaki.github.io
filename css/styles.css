@@ -1,5 +1,6 @@
 header h1 {
-    width: 300px;
+    width: 960px;
+    align-items: center;
     background-color: rgb(6, 6, 141);
     padding: 1rem;
     color: #f2f6f8;
