@@ -1,26 +1,21 @@
 header h1 {
-    color: #0076bb;
+    width: 300px;
+    background-color: rgb(6, 6, 141);
+    padding: 1rem;
+    color: #f2f6f8;
 }
-nav ul {
-    padding: 0;
-}
-nav ul li {
-float: left;
-list-style-type: none;
-}
-nav ul li a {
-    display: block;
-    padding: .5rem 1rem;
-    background-color: #f89c1f;
 
-}
 main h1 {
     clear: both;
 }
-main img{
+header img{
     float: right;
 }
 footer{
+    width: 300px;
+    background-color: rgb(6, 6, 141);
+    padding: 1rem;
+    color: #f2f6f8;
     text-align: center;
     clear: both;
 }
