@@ -1,22 +1,25 @@
 header h1 {
-    width: 500px center;
+    width: 960px center;
     align-items: center;
-    margin: 30px auto;
-    background-color: rgb(6, 6, 141);
-    padding: 5rem;
+    margin: 50px auto;
+    background-color: rgb(47, 183, 218);
+    padding: 3rem;
     color: #f2f6f8;
 }
 
 main h1 {
     clear: both;
 }
+main div {
+    margin: 20px left;
+}
 header img{
     float: right;
 }
 footer{
     width: 960px center;
-    margin: 30px auto;
-    background-color: rgb(6, 6, 141);
+    margin: 50px auto;
+    background-color: rgb(47, 183, 218);
     padding: 1rem;
     color: #f2f6f8;
     text-align: center;
