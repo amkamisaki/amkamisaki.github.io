@@ -1,9 +1,9 @@
 header h1 {
-    width: center;
+    width: 300px center;
     align-items: center;
     margin: 50px auto;
     background-color: rgb(47, 183, 218);
-    padding: 3rem;
+    padding: 1.5rem;
     color: #f2f6f8;
 }
 
@@ -24,10 +24,10 @@ header img{
     padding: 5px;
 }
 footer{
-    width: 500px center;
+    width: 200px center;
     margin: 50px auto;
     background-color: rgb(47, 183, 218);
-    padding: 1rem;
+    padding: 0.5rem;
     color: #f2f6f8;
     text-align: center;
     clear: both;
