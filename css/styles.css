@@ -3,7 +3,7 @@ header h1 {
     align-items: center;
     margin: 40px auto;
     background-color: rgb(47, 183, 218);
-    padding: 2rem;
+    padding: 1.5rem;
     color: #f2f6f8;
 }
 
@@ -27,7 +27,7 @@ footer{
     width: 200px center;
     margin: 7px auto;
     background-color: rgb(47, 183, 218);
-    padding: 0.5rem;
+    padding: 0.2rem;
     color: #f2f6f8;
     text-align: center;
     clear: both;
