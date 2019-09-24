@@ -10,6 +10,12 @@ header h1 {
 main h1 {
     clear: both;
 }
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+ul li{
+    font-family: 'Source Code Pro', monospace;
+}
 main div {
     margin: 20px left;
 }
