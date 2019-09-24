@@ -1,5 +1,5 @@
 header h1 {
-    width: 960px center;
+    width: 600px center;
     align-items: center;
     margin: 50px auto;
     background-color: rgb(47, 183, 218);
@@ -24,7 +24,7 @@ header img{
     padding: 5px;
 }
 footer{
-    width: 960px center;
+    width: 500px center;
     margin: 50px auto;
     background-color: rgb(47, 183, 218);
     padding: 1rem;
