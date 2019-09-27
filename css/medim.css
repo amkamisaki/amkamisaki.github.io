@@ -5,5 +5,12 @@ h1 {
 h2 {
     font-size: 1.5rem; 
 }
-
+header, footer {
+    border-radius: 10px;
+}
+header img{
+    border-radius: 0 10 0 0;
+    float: right;
+    padding: 3px;
+    }
 }
