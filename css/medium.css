@@ -12,5 +12,6 @@ header img{
     border-radius: 0 10 0 0;
     float: right;
     padding: 3px;
+    box-shadow: 0 0 30px rgb(32, 33, 114);
     }
 }
