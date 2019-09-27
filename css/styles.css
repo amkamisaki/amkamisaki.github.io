@@ -1,15 +1,11 @@
-header h1 {
-    width: 300px center;
-    align-items: center;
-    margin: 40px auto;
+header, footer {
+    margin: 0 auto;
     background-color: rgb(47, 183, 218);
-    padding: 1.5rem;
+    padding: 0.75rem;
+    max-width: 45rem;
     color: #f2f6f8;
 }
 
-main h1 {
-    clear: both;
-}
 h3 {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -22,13 +18,4 @@ main div {
 header img{
     float: right;
     padding: 5px;
-}
-footer{
-    width: 200px center;
-    margin: 7px auto;
-    background-color: rgb(47, 183, 218);
-    padding: 0.2rem;
-    color: #f2f6f8;
-    text-align: center;
-    clear: both;
 }
