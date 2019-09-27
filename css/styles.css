@@ -1,7 +1,7 @@
 header, footer {
     margin: 0 auto;
     background-color: rgb(47, 183, 218);
-    padding: 0.75rem;
+    padding: 0.5rem;
     max-width: 45rem;
     color: #f2f6f8;
 }
@@ -13,9 +13,9 @@ ul li{
     font-family: 'Source Code Pro', monospace;
 }
 main div {
-    margin: 20px left;
+    margin: 0 auto;
 }
 header img{
     float: right;
-    padding: 5px;
+    padding: 3px;
 }
