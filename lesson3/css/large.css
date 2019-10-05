@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+	nav a, main p {
+		font-size: 1.1rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1.5rem; 
+    }
+	/*main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}*/
+}
