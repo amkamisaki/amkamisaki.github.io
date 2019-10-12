@@ -9,17 +9,23 @@
 <link rel="stylesheet" href="css/small.css">
 <link rel="stylesheet" href="css/medium.css">
 <link rel="stylesheet" href="css/large.css">
+
 <title>Preston: Time and Weather Today</title>
 </head>
 
 <body>
 <header>
+    <picture>
 <img src="images/logo.png" alt="logo">
+</picture>
+<section class="headings">
 <h1>Time and Weather Today</h1>
-<div>The Weather Informations You Need for Idaho</div>
+<div class="h">The Weather Informations You Need for Idaho</div>
+</section>
 </header>
 <nav>
-	<ul>
+        <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="preston.html" class="active">Preston</a></li>
             <li><a href="soda_springs.html">Soda Springs</a></li>
@@ -37,8 +43,9 @@
 </main>
 <footer>
 <p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
-<?php the_date('l, jS F Y'); ?>
+<p id="today"></p><script src="js/datetoday.js"></script>
 </footer>
+<script src="js/responsive.js"></script>
 
 </body>
 </html>
