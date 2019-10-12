@@ -9,8 +9,10 @@ header, footer {
 	display: flex;
 	align-items:center;
     justify-content:center;
-    max-width: 800px center;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
 
 header img {
 	width: 80px;
@@ -43,7 +45,8 @@ nav {
 .navigation {
 	list-style: none;
 	text-align: center;
-	padding: 0;
+    padding: 0;
+    max-width: 760px;
 }
 .navigation li:first-child {
 	display: block;
