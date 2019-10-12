@@ -23,7 +23,8 @@ header img {
 
 .headings h1 {
 	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+    margin: 0 0 0 17px;
+    font-family: 'Merriweather', serif;
 }
 
 .h {
@@ -54,7 +55,8 @@ nav {
 	color: #fff;
 	padding: 0.75rem;
 	text-align: center;
-	text-decoration: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
 }
 .navigation a:hover {
 	color: rgb(15, 72, 87);
@@ -73,7 +75,11 @@ footer p {
     margin: 10px;
     padding: 12px;
     border: 2px dotted rgb(38, 27, 136);
-
+    {font-family: 'Work Sans', sans-serif;
+}
+h2 {
+    font-size: 1.2px;
+    {font-family: 'Work Sans', sans-serif;
 }
 
 
