@@ -48,8 +48,7 @@ nav {
 	list-style: none;
 	text-align: center;
     padding: 0;
-    max-width: 770px;
-}
+    }
 .navigation li:first-child {
 	display: block;
 }
