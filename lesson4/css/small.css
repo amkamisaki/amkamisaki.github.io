@@ -48,7 +48,7 @@ nav {
 	list-style: none;
 	text-align: center;
     padding: 0;
-    max-width: 760px;
+    max-width: 770px;
 }
 .navigation li:first-child {
 	display: block;
@@ -84,7 +84,7 @@ footer p {
     {font-family: 'Work Sans', sans-serif;
 }
 main h2 {
-    margin: 0 auto;
+    text-align: center;
     font-size: 1.2px;
     {font-family: 'Work Sans', sans-serif;
 }
