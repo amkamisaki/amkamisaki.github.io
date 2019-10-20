@@ -139,5 +139,5 @@ footer p {
 	display: none;
 	}
 .map {
-	display: none;
+	display: flex;
 }
