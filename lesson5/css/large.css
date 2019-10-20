@@ -1,3 +1,5 @@
+@media only screen and (min-width: 60em) {
+ 
 header img {
 	width: 100px;
 	height: auto;
@@ -13,3 +15,15 @@ main h2 {
 }
 .navigation li a {
     color: rgb(46, 139, 116);
+.article img {
+		float: left;
+		width: 780px;;
+		height: auto;
+		margin-right: 10px;
+        }    
+.hero img {
+            width: 780px;
+            height: auto;
+        }  
+
+}    
