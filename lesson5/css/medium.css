@@ -16,6 +16,13 @@
 		margin: 0 auto;
 		max-width: 780px;
 	}
+	.hero{
+		max-width: 780px;
+	}
+	.hero img {
+		width: 60%;
+		
+	}
 	.forecastContainer {
         display: block;
         text-align: center;
@@ -30,7 +37,13 @@
         grid-template-columns: auto auto auto auto auto;
         margin: 0 auto;
         padding: 15px;
-    }
+	}
+	.contact {
+		display: grid;
+	}
+	.contact iframe {
+		display: flex;
+	}
     .day {
         background-color: rgb(91, 187, 131);
         color: whitesmoke;
@@ -48,9 +61,12 @@
 	}
 	.article img {
 		float: left;
-		width: 580px;;
+		width: 60%;
 		height: auto;
 		margin-right: 10px;
+		}
+		.article, .contact {
+			margin-right: 15px;
 		}
 	.map{
 		display: flex;
@@ -58,8 +74,5 @@
 	.contact a {
 		display: inline;
 	}
-	.hero img {
-		width: 580px;
-		height: auto;
-	}
+	
 }

@@ -28,6 +28,10 @@ nav {
 	background-color: #fff;
 	font-weight: 700;
 }
+.active {
+	color: rgb(65, 1, 17);
+	background-color: blueviolet;
+}
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
@@ -37,41 +41,56 @@ nav {
 }
 
 .article, .contact {
-	margin-right: 15px;
+	text-align: center;
 	border: 1px solid #0713c4;
 	background-color: rgb(50, 163, 238);
 	margin-top: 10px;
 }
 
 .article img {
-	float: none;
-    width: 380px;;
-	height: auto;
-	margin-right: 10px;
+	display: block;
+    width: 70%;
+	margin-right: auto;
+	margin-left: auto;
     }
 
 body {
 	padding: 0;
     margin: 0px auto;
-    }
+	}
+	div.showme {
+		display: block;
+	}
+	div.hideme {
+		display: none
+	}
 .hero {
-	margin: 10px auto;
+	margin: 0 auto;
 	position: relative;
 }
 .hero img {
-	width: 480px;
+	width: 80%;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .summary {
 	position: absolute;
-	top: 15px;
-	left: 50px;
+	top: 10px;
+	left: 20px;
 	background: radial-gradient(#eee, #1b62f0);
 	border: 1px solid #000;
 	padding: 0.5rem;
-	box-shadow: 0 0 20px #111;
+	box-shadow: 0 0 10px #111;
 	opacity: .8;
+}
+.forecastContainer {
+	display: none;
+	}
+.contact iframe {
+	display: none;
 }
 
 main h2 {
@@ -133,11 +152,5 @@ footer p {
     margin: 10px;
     padding: 12px;
     border: 2px dotted rgb(38, 27, 136);
-    {font-family: 'Work Sans', sans-serif;
-}
-.forecastContainer {
-	display: none;
-	}
-.contact iframe {
-	display: flex;
+    font-family: 'Work Sans', sans-serif;
 }
