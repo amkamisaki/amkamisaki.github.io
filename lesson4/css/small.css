@@ -50,6 +50,11 @@ header, footer {
     max-width: 800px;
     margin: 0 auto;
 }
+main h2 {
+	font-size: 1.2px;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+}
 
 
 header img {
@@ -89,8 +94,4 @@ footer p {
     border: 2px dotted rgb(38, 27, 136);
     font-family: 'Work Sans', sans-serif;
 }
-main h2 {
-        font-size: 1.2px;
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-}
+
