@@ -29,7 +29,7 @@ nav {
 	font-weight: 700;
 }
 .active {
-	color: #fff;
+	color: rgb(231, 223, 223);
 	background-color: blueviolet;
 }
 
