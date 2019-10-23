@@ -39,11 +39,18 @@
         padding: 15px;
 	}
 	.contact {
-		display: grid;
-	}
+		display: block;
+		}
 	.contact iframe {
-		display: flex;
-	}
+		float: left;
+		display: block;
+		width: 50%;
+		height: auto;
+		
+		}
+		.social {
+			display: block;
+		}
     .day {
         background-color: rgb(91, 187, 131);
         color: whitesmoke;
@@ -61,8 +68,8 @@
 	}
 	.article img {
 		float: left;
-		width: 60%;
-		height: auto;
+		width: 50%;
+		height: 250px;
 		margin-right: 10px;
 		}
 		.article, .contact {
@@ -70,9 +77,6 @@
 		}
 	.map{
 		display: flex;
-	}
-	.contact a {
-		display: inline;
 	}
 	
 }
