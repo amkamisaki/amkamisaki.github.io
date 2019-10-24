@@ -51,9 +51,10 @@ header, footer {
     margin: 0 auto;
 }
 main h2 {
-	font-size: 1.2px;
+	font-size: 1.2rem;
 font-family: 'Work Sans', sans-serif;
-text-align: center;
+text-align: left;
+padding-left: 2%;
 }
 
 
