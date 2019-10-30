@@ -1,0 +1,98 @@
+body {
+	padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header, footer {
+	background-color: rgb(71, 135, 151);
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+    justify-content:center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+    margin: 0 0 0 17px;
+    font-family: 'Merriweather', serif;
+}
+
+.h {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(22, 228, 22);
+	margin-left: 20px;
+	font-size: .9rem;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+    background-color: #06eb9f;
+    
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+    padding: 0;
+    }
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+.navigation a:hover {
+	color: rgb(15, 72, 87);
+	background-color: #fff;
+	font-weight: 700;
+}
+footer {
+    flex-direction: column;
+    }
+footer p {
+    padding: 10px;
+    margin: 0 auto;
+}
+.maininfo {
+    display: block;
+    margin: 10px;
+    padding: 12px;
+    border: 2px dotted rgb(38, 27, 136);
+    {font-family: 'Work Sans', sans-serif;
+}
+main h2 {
+        font-size: 1.2px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
