@@ -68,14 +68,13 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-.hero img {
-	max-width: 60%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	
+.heroImage {
+	width: 98%;
+	margin: 0 0 0 1%;
 }
-
+.heroImage img {
+	width: 100%;
+}
 .summary {
 	position: absolute;
 	top: 10px;

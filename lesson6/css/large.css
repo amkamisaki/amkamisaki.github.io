@@ -22,13 +22,7 @@ main h2 {
 		height: auto;
 	
         }    
-.hero img {
-            width: 90%;
-            height: auto;
-            margin-left: auto;
-            margin-right: auto;
-        
-        }
+
         .contact iframe {
             width: 50%;
             height: 200px;

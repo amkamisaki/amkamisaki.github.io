@@ -46,10 +46,10 @@
         <section class="summary">
         <h3>Weather Summary</h3>
         <p>Currently: <span id="currently">Sunny</span></p>
-        <p>Temperature: <span id="temperature">45° F</span></p>
+        <p>High: <span id="temperature">45</span> &#176;F</p>
+        <p>Wind Chill: <span id="windChill"></span></p>
         <p>Humidity: <span id="humidity">79%</span></p>
-        <p>Precipitation: <span id="precipitation">2 inches</span></p>
-        <p>Wind Speed: <span id="wind">6 mph</span></p>
+        <p>Wind Speed: <span id="wind">10</span>mph</p>
     </section>
 </div>
 
@@ -103,6 +103,7 @@
 <p id="today"></p><script src="js/datetoday.js"></script>
 </footer>
 <script src="js/responsive.js"></script>
+<script src="js/windchill.js"></script>
 <script>
 const today = new Date();
 const dayNumber = today.getDay();

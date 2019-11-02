@@ -17,14 +17,9 @@
 		max-width: 780px;
 	}
 	.hero{
-		max-width: 780px;
+		max-width: 90%;
 	}
-	.hero img {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-		
-	}
+	
 	.forecastContainer {
         display: block;
         text-align: center;
