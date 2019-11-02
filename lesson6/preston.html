@@ -45,11 +45,11 @@
         </figure>
         <section class="summary">
         <h3>Weather Summary</h3>
-        <p>Currently: <span id="currently">Sunny</span></p>
-        <p>High: <span id="temperature">45</span> &#176;F</p>
-        <p>Wind Chill: <span id="windChill"></span></p>
-        <p>Humidity: <span id="humidity">79%</span></p>
-        <p>Wind Speed: <span id="wind">10</span>mph</p>
+        <div>Currently: <span id="currently">Sunny</span></div>
+        <div>High: <span id="temperature">45</span> &#176;F</div>
+        <div>Wind Chill: <span id="windChill"></span></div>
+        <div>Humidity: <span id="humidity">79%</span></div>
+        <div>Wind Speed: <span id="wind">10</span>mph</div>
     </section>
 </div>
 
@@ -102,8 +102,6 @@
 <p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
 <p id="today"></p><script src="js/datetoday.js"></script>
 </footer>
-<script src="js/responsive.js"></script>
-<script src="js/windchill.js"></script>
 <script>
 const today = new Date();
 const dayNumber = today.getDay();
@@ -113,5 +111,7 @@ if (dayNumber == 6) {
     else {
         element.classList.add("hideme")}
 </script>
+<script src="js/responsive.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>
