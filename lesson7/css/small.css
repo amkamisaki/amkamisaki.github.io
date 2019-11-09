@@ -151,7 +151,7 @@ filter: blur(0.2em);
 }   
 .shadow img {     
 filter: blur(0em);   
-transition: filter 0.5s; 
+transition: filter 0.4s; 
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
