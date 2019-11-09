@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Merriweather&Muli&Work+Sans&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+<title>Weather Gallery: Time and Weather Today</title>
+</head>
+
+<body>
+    <div id="message"> Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <picture>
+<img src="images/logo.png" alt="logo">
+</picture>
+<section class="headings">
+<h1>Time and Weather Today</h1>
+<div class="h">The Weather Informations You Need for Idaho</div>
+</section>
+</header>
+<nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda_springs.html">Soda Springs</a></li>
+            <li><a href="fish_haven.html">Fish Haven</a></li>
+            <li><a href="storm_center.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main class="clearfix">
+<h1>Weather Gallery</h1>
+<div class="container">
+    <figure class="shadow">
+        <img data-src="images/spring.jpg" alt="Spring">
+        <figcaption>A Spring Day</figcaption>
+     </figure>
+    <figure class="shadow">
+        <img data-src="images/summer.jpg" alt="Summer">
+        <figcaption>A Summer Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/fall.jpg" alt="Fall">
+        <figcaption>A Fall Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/winter.jpg" alt="Winter">
+        <figcaption>A Winter Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/foggy.jpg" alt="Foggy">
+        <figcaption>A Foggy Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/rainyday.jpg" alt="Rainy Day">
+        <figcaption>A Rainy Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/sunwithclouds.jpg" alt="Sun With Clouds">
+        <figcaption>A Sun With Clouds Day</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/sunset.jpg" alt="Sunset">
+        <figcaption>Sunset View</figcaption>
+    </figure>
+    <figure class="shadow">
+        <img data-src="images/lightning.jpg" alt="Lightning">
+        <figcaption>Lightning View at Night</figcaption>
+    </figure>
+</div>
+
+</main>
+<footer>
+<p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
+<p id="today"></p><script src="js/datetoday.js"></script>
+</footer>
+<script>
+const today = new Date();
+const dayNumber = today.getDay();
+const element = document.getElementById("message");
+if (dayNumber == 6) {
+    element.classList.add("showme")}
+    else {
+        element.classList.add("hideme")}
+</script>
+<script src="js/responsive.js"></script>
+<script src="js/lazyload.js"></script>
+</body>
+</html>
