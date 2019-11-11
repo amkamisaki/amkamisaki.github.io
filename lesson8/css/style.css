@@ -1,8 +1,4 @@
 
-tbody tr:nth-child(odd) {
-    background: #e7f0ed ;
-}
-
 table, th, td {
   border: 1px solid rgb(83, 82, 82);
   border-collapse: collapse;
@@ -32,4 +28,10 @@ tfoot {
 tbody th, .win {
     color: #fff;
     background: #628ca6;
+}
+tbody tr:nth-child(odd) {
+    background: #e7f0ed ;
+}
+tbody tr {
+    background-color: #e7ffed;
 }
