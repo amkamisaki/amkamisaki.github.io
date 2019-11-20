@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: rgb(82, 82, 77);
+	}
+	
+	.contact {
+		display: block;
+		}
+	.contact iframe {
+		float: left;
+		display: block;
+		width: 50%;
+		height: 200px;
+		
+		}
+		.social {
+			display: block;
+		}
+    
+    .weather {
+        border-left: thin solid #02182B;
+        border-right: 1px solid #02182B;
+    }
+    .temp {
+        background-color: rgb(91, 187, 131);
+        color: whitesmoke;
+        border: thin solid #02182B;
+	}
+	.container {
+		display:grid; 
+	    grid-template-columns: 1fr 1fr; 
+	    max-width: 100%;
+	}
+	.map{
+		display: flex;
+	}
+	.container img {
+		width: 100%;
+		height: auto;
+	}
+	
+}
