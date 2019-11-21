@@ -40,5 +40,9 @@ form label.top, form legend, form label.severe, form label.comments, form div {
 .cards section {
     display:block;
 }
+.articleimage img {
+    max-width: 78%;
+    margin-top: 2%;
+}
 
 }    

@@ -76,17 +76,17 @@
 	div.cards section:nth-child(2) :nth-child(2) { order: 1; }
 	/*.article {
 		display: flex;*/
-	}
+	
 	.articleimage {
 		width: 50%;
-		margin: 0 auto;
+		margin: 0 0 0 2%;
 		float: left;
 	}
 	.article div {
 		display: block;
 	}
 	.articleimage img {
-		max-width: 70%;
+		max-width: 90%;
 		margin-top: 2%;
 	}
 	
