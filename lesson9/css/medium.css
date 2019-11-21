@@ -86,6 +86,7 @@
 		display: block;
 	}
 	.articleimage img {
+		max-width: 50%;
 		margin-top: 5%;
 	}
 	
