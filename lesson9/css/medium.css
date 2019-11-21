@@ -79,15 +79,15 @@
 	}
 	.articleimage {
 		width: 50%;
-		margin: 0 0 0 2%;
+		margin: 0 auto;
 		float: left;
 	}
 	.article div {
 		display: block;
 	}
 	.articleimage img {
-		max-width: 50%;
-		margin-top: 5%;
+		max-width: 70%;
+		margin-top: 2%;
 	}
 	
 	}

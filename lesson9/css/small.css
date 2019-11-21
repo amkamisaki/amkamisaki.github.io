@@ -54,11 +54,10 @@ nav {
 	display: block;
 }
 .articleimage {
-	max-width: 70%;
+	max-width: 80%;
 }
 
 .articleimage img {
-	display: block;
     max-width: 95%;
 	margin-right: auto;
 	margin-left: auto;
