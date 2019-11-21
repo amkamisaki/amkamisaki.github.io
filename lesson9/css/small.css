@@ -42,18 +42,31 @@ nav {
 }
 
 .article, .contact {
+	margin: 0 auto;
 	text-align: center;
 	border: 1px solid #0713c4;
-	background-color: rgb(50, 163, 238);
+	background-color: #8f9ec7;
+	box-shadow: 0 0 10px #413d3d;
+	max-width: 98%;
 	margin-top: 10px;
 }
-
-.article img {
+.article {
 	display: block;
-    width: 70%;
+}
+.articleimage {
+	max-width: 70%;
+}
+
+.articleimage img {
+	display: block;
+    max-width: 95%;
 	margin-right: auto;
 	margin-left: auto;
-    }
+	box-shadow: 10 10 20px #b6cfe7;
+	}
+.article p {
+	text-align: left;	
+	}
 
 body {
 	padding: 0;
@@ -65,15 +78,59 @@ body {
 	div.hideme {
 		display: none;
 	}
-
-
-main h2 {
-	font-size: 1.2px;
-font-family: 'Work Sans', sans-serif;
-text-align: center;
+.contact iframe {
+	display: none;
 }
+	
 
+.cards {
+	margin: 0 auto;
+	align-content: center; 
+    justify-items: center;
+	display:grid; 
+	grid-template-columns: 1fr;
+	max-width: 98%;
+	overflow: auto;
+	background: #8f9ec7;
+	border: 1px solid #0713c4;
+    box-shadow: 0 0 10px #413d3d;
+    margin-top: 15px;
+}
+.cards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px #b6cfe7;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    max-width: 350px;
+    
+}
+.cards section {
+    padding: 20px;
+    background: rgb(83, 86, 248);
+    border: 2px solid rgb(32, 19, 19);
+    margin-top: 10px;
+	margin-bottom: 3px;
+}
+.cards h2 {
+	font-size: 1.4rem;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+.cards h3 {
+	font-size: .9rem;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.cards p {
+	font-size: .8rem;
+	font-family: 'Merriweather', serif;
+	text-align: center;
 
+}
 header, footer {
 	background-color: rgb(71, 135, 151);
 	padding: 5px 0;
@@ -142,7 +199,9 @@ figcaption {
 	border-top: 4px solid #87b9a9;
 }
   
-h1 {
+main h1 {
+	font-size: 1.3rem;
+	font-family: 'Merriweather', serif;
     text-align: center;
 }
 

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) {
 	.navigation {
 		display: flex;
 	}
@@ -21,7 +21,6 @@
 		display: block;
 		width: 50%;
 		height: 200px;
-		
 		}
 		.social {
 			display: block;
@@ -39,7 +38,7 @@
 	.container {
 		display:grid; 
 	    grid-template-columns: 1fr 1fr; 
-	    max-width: 100%;
+	    max-width: 98%;
 	}
 	.map{
 		display: flex;
@@ -48,5 +47,48 @@
 		width: 100%;
 		height: auto;
 	}
+	.cards {
+		display:grid;
+		grid-template-columns: 1fr;
+		grid-gap: 2px;
+		border: none;
+    }
+
+    .cards section {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+	}
+	.cards section div {
+		display: block;
+		justify-content:center;
+		align-items:center;
+		margin-top: 5%;
+	}
+	.cards section picture {
+		max-width: 80%;
+	}
+	.cards img {
+		max-width: 100%;
+
+	}
+    
+    div.cards section:nth-child(2) :nth-child(1) { order: 2; }
+	div.cards section:nth-child(2) :nth-child(2) { order: 1; }
+	/*.article {
+		display: flex;*/
+	}
+	.articleimage {
+		width: 50%;
+		margin: 0 0 0 2%;
+		float: left;
+	}
+	.article div {
+		display: block;
+	}
+	.articleimage img {
+		margin-top: 5%;
+	}
 	
-}
+	}
+	
+
