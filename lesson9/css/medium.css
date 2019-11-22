@@ -19,8 +19,9 @@
 	.contact iframe {
 		float: left;
 		display: block;
-		width: 50%;
+		max-width: 45%;
 		height: 200px;
+		margin-left: 2%;
 		}
 		.social {
 			display: block;
