@@ -1,12 +1,13 @@
 const weatherObject = new XMLHttpRequest();
 
-weatherObject.open("GET","https://api.openweathermap.org/data/2.5/forecast?id=02ad1bdd62f910cc3245193223e89746&units=imperial", true);
+weatherObject.open("GET","https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=02ad1bdd62f910cc3245193223e89746ad&units=imperial", true);
 weatherObject.send();
 weatherObject.onload = function() {
    let weatherInfo = JSON.parse(weatherObject.responseText);
    console.log(weatherInfo);
 
-   document.getElementById("place").textContent = weatherInfo.name;
+   document.getElementById("place").innerHTML = weatherInfo.name;
+   document.getElementById("currentTemp").innerHTML = weatherInfo.main.temp;
 
 } // end of onload
 
