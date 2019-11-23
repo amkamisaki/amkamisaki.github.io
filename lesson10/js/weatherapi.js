@@ -3,10 +3,10 @@ const weatherObject = new XMLHttpRequest();
 weatherObject.open("GET","//api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=035595da61bbb78c1498b8e8863b9151&units=imperial", true);
 weatherObject.send();
 weatherObject.onload = function() {
-let weatherInfo = JSON.parse(weatherObject.responseText);
-console.log(weatherInfo);
+   let weatherInfo = JSON.parse(weatherObject.responseText);
+   console.log(weatherInfo);
 
-document.getElementById("place").innerHTML = weatherInfo.name;
+   document.getElementById("place").innerHTML = weatherInfo.city.name;
 
 } // end of onload
 
