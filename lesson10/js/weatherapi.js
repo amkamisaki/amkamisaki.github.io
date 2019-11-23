@@ -4,7 +4,9 @@ weatherObject.open("GET","//api.openweathermap.org/data/2.5/forecast?id=5604473&
 weatherObject.send();
 weatherObject.onload = function() {
 let weatherInfo = JSON.parse(weatherObject.responseText);
+console.log(weatherInfo);
 
+document.getElementById("place").innerHTML = weatherInfo.name;
 
 } // end of onload
 
