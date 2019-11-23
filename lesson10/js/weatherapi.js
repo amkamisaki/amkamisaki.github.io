@@ -6,7 +6,7 @@ weatherObject.onload = function() {
    let weatherInfo = JSON.parse(weatherObject.responseText);
    console.log(weatherInfo);
 
-   document.getElementById("place").innerHTML = weatherInfo.city.name;
+   document.getElementById("place").textContent = weatherInfo.name;
 
 } // end of onload
 
