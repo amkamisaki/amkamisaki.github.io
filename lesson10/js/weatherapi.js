@@ -12,7 +12,7 @@ weatherObject.onload = function() {
 
 
 
-/*const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=035595da61bbb78c1498b8e8863b9151";
+/*const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=20166b3a796e025a536c9db9d87c1ebd";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
