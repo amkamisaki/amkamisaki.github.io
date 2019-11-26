@@ -1,7 +1,7 @@
 
 nav {
 	margin: 0 auto;
-	max-width: 100%;
+	max-width: 780px;
 	background-color: #06eb9f;
 }
 .navigation {
@@ -29,10 +29,9 @@ nav {
 	font-weight: 700;
 }
 .active {
-	color: #fff;
-	background-color: #2953c7;
+	color: rgb(231, 223, 223);
+	background-color: blueviolet;
 }
-
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
   <ul class="navigation responsive">
@@ -42,34 +41,18 @@ nav {
 }
 
 .article, .contact {
-	margin: 0 auto;
 	text-align: center;
 	border: 1px solid #0713c4;
-	background-color: #8f9ec7;
-	box-shadow: 0 0 10px #413d3d;
-	max-width: 98%;
+	background-color: rgb(50, 163, 238);
 	margin-top: 10px;
 }
-.article {
-	display: block;
-}
 
-.articleimage {
-	max-width: 80%;
-}
-
-.articleimage img {
-	max-width: 90%;
+.article img {
 	display: block;
+    width: 70%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 2%;
-	box-shadow: 10 10 20px #b6cfe7;
-	}
-.article p {
-	text-align: left;
-	margin: 1rem;	
-	}
+    }
 
 body {
 	padding: 0;
@@ -79,66 +62,43 @@ body {
 		display: block;
 	}
 	div.hideme {
-		display: none;
+		display: none
+	}
+.hero {
+	margin: 0 auto;
+	position: relative;
+}
+.heroImage {
+	width: 98%;
+	margin: 0 0 0 1%;
+}
+.heroImage img {
+	width: 100%;
+}
+.summary {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	font-size: .8rem;
+	background: radial-gradient(#eee, #1b62f0);
+	border: 0.7px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 2px #111;
+	opacity: .8;
+}
+.forecastContainer {
+	display: none;
 	}
 .contact iframe {
 	display: none;
 }
-	
 
-.cards {
-	margin: 0 auto;
-	align-content: center; 
-    justify-items: center;
-	display:grid; 
-	grid-template-columns: 1fr;
-	max-width: 98%;
-	overflow: auto;
-	background: #8f9ec7;
-	border: 1px solid #0713c4;
-    box-shadow: 0 0 10px #413d3d;
-    margin-top: 15px;
+main h2 {
+	font-size: 1.2px;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
 }
-.cards img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 20px #b6cfe7;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    max-width: 350px;
-    
-}
-.cards section {
-    padding: 20px;
-    background: rgb(83, 86, 248);
-    border: 2px solid rgb(32, 19, 19);
-    margin-top: 10px;
-	margin-bottom: 3px;
-}
-.cards h2 {
-	font-size: 1.4rem;
-	font-family: 'Work Sans', sans-serif;
-	text-align: center;
-	margin: 0;
-}
-.cards h3 {
-	font-size: .9rem;
-	font-family: 'Merriweather', serif;
-	text-align: center;
-	margin-bottom: 30px;
-}
-.cards p {
-	font-size: .8rem;
-	font-family: 'Merriweather', serif;
-	text-align: center;
 
-}
-.wireframe {
-	display: block;
-	margin-top: 3%;
-	text-align: center;
-}
 
 header, footer {
 	background-color: rgb(71, 135, 151);
@@ -188,111 +148,10 @@ footer p {
     padding: 10px;
     margin: 0 auto;
 }
-.container {
-	margin: 0 auto;
-	align-content: center; 
-    justify-items: center;
-	display:grid; 
-	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-	max-width: 100%;
-	overflow: auto;
-	background: #2953c7;
-}
-figure {
-	border: 4px solid #87b9a9;
-	}
-figcaption {
-	text-align: center;
-	align-content: center;
-	color: #fff;
-	border-top: 4px solid #87b9a9;
-}
-  
-main h1 {
-	font-size: 1.3rem;
-	font-family: 'Merriweather', serif;
-    text-align: center;
-}
-
-main {
-    padding: 0 2%;
-    min-height: 20rem;
-}
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-}
-form legend {
-    color:#445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-form label.top, form div, label.comments {
+.maininfo {
     display: block;
-    padding-top: 2rem;
-    color: #445ba9;
-	font-size: .8rem;
+    margin: 10px;
+    padding: 12px;
+    border: 2px dotted rgb(38, 27, 136);
+    font-family: 'Work Sans', sans-serif;
 }
-form label.top input, form label.top select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #445ba9;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    border: solid 1px;
-    background-color: #d2daf7;
-}
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-form input.submitBtn {
-    border: none;
-	background-color: #2953c7;
-    background-color: ;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2.2%;
-    width: 96%;
-    max-width: 20rem;
-}
-form label.top input:required {
-    border-left: red solid 6px;
-}
-form label.top input:required valid {
-    border-left: green solid 6px;
-}
-.severe {
-    display: block;
-    color: #0059b3;
-    font-size: .8rem;
-    height: 44px;
-	padding: 2rem  .3rem 0 0;
-
-}
-textarea {
-	display: block;
-    padding: 10px;
-    margin: 0;
-    height: 100px;
-    width: 100%;
-    max-width: 19rem;
-    border:solid 1px #0059b3;
-    border-radius: 4px;
-}
-
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
