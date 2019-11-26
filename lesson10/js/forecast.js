@@ -1,4 +1,4 @@
-fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=73bb36bc52c2326776438d6ada69eb9d&units=imperial")
+fetch('https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=c4f26b47558cfc6a6aebf07554d017ad')
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
@@ -20,7 +20,6 @@ fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=73bb36bc
   weekday[6] = "Saturday";
 
       for (let i = 1; i <= 5; i++) {
-      
         jsObject.list.forEach(x => {
             if (x.dt_txt.includes('18:00:00')) {
                 forecast[day] = x.main.temp;
@@ -37,8 +36,8 @@ fetch("https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=73bb36bc
              document.getElementById("icon" + i).setAttribute('src', imagesrc);
              document.getElementById('temp' + i ).innerHTML = forecast[i];
              document.getElementById('day' + i ).innerHTML =  n ;
-        }})};
+        }});
 
   
 
-    });
+    }});
