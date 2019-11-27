@@ -17,7 +17,7 @@
 		max-width: 780px;
 	}
 	.hero{
-		max-width: 90%;
+		max-width: 100%;
 	}
 	
 	.forecastContainer {
@@ -48,7 +48,7 @@
 		.social {
 			display: block;
 		}
-    .day {
+    .days {
         background-color: rgb(91, 187, 131);
         color: whitesmoke;
         font-size: 1rem;
