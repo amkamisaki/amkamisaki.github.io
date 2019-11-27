@@ -66,10 +66,8 @@
 	.article img {
 		float: left;
 		width: 50%;
-		max-height: 250px;
-		margin-right: 10px;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		max-height: 200px;
+		
 		}
 		.article, .contact {
 			max-width: 100%;
