@@ -68,16 +68,15 @@
 		width: 50%;
 		height: auto;
 		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		}
 		.article, .contact {
 			max-width: 100%;
 			height: auto;
 			margin-right: 15px;
 		}
-		.article {
-			margin-top: 10px;
-			margin-bottom: 10px;
-		}
+		
 	.article p {
 		font-size: 1rem;
 	}
