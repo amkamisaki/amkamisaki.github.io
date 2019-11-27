@@ -1,4 +1,4 @@
-/*const weatherObject = new XMLHttpRequest();
+const weatherObject = new XMLHttpRequest();
 weatherObject.open("GET", "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=035595da61bbb78c1498b8e8863b9151&units=imperial", true);
 weatherObject.send();
 weatherObject.onload = function() {
@@ -25,9 +25,9 @@ weatherObject.onload = function() {
    }
    windChill();
 
-} // end of onload*/
+} // end of onload
 
-const weatherObject = new XMLHttpRequest ();
+/*const weatherObject = new XMLHttpRequest ();
 weatherObject.open("GET", "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c4f26b47558cfc6a6aebf07554d017ad&units=imperial", true);
 weatherObject.send();
 weatherObject.onload = function () {
@@ -58,7 +58,7 @@ weatherObject.onload = function () {
 
 
 
-}
+}*/
 
 
 
