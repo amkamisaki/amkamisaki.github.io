@@ -66,12 +66,20 @@
 	.article img {
 		float: left;
 		width: 50%;
-		height: 250px;
+		height: auto;
 		margin-right: 10px;
 		}
 		.article, .contact {
+			max-width: 100%;
+			height: auto;
 			margin-right: 15px;
 		}
+		.article {
+			margin-bottom: 10px;
+		}
+	.article p {
+		font-size: 1rem;
+	}
 	.map{
 		display: flex;
 	}
