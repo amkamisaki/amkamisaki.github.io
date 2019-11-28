@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+<title>Storm Center: Time and Weather Today</title>
+</head>
+
+<body>
+    <div id="message"> Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <picture>
+<img src="images/logo.png" alt="logo">
+</picture>
+<section class="headings">
+<h1>Time and Weather Today</h1>
+<div class="h">The Weather Informations You Need for Idaho</div>
+</section>
+</header>
+<nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../lesson6/preston.html">Preston</a></li>
+            <li><a href="soda_springs.html">Soda Springs</a></li>
+            <li><a href="fish_haven.html">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main class="clearfix">
+<h1> Storm Report</h1>
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label class="top">Full Name* <input type="text" name="fname" minlength ="5" pattern="[A-Za-z ]{5,}" required></label>
+        <label class="top">Email <input type="email" name="email" placeholder="someone@aabbcc.com"></label>
+        <label class="top">Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
+        <label class="top">Zip Code*<input type="number" name="zipcode" required></label>
+    </fieldset>
+    <fieldset>
+        <legend>Storm Information</legend>
+        <label class="top">Date <input type="date" name="stormdate"></label>
+        <label class="top">Type<input list="storm-list" id="storm-type" name="storm-type" >
+        <datalist id="storm-list">
+             <option value="Flash Flood">
+             <option value="Hail">
+             <option value="Hurricane">
+             <option value="Thunderstorm">
+             <option value="Tornado">
+        </datalist>
+        </label>
+        <label class="severe" for="severity">Storm Severity (1-10) &nbsp;&nbsp;&nbsp;<br>
+            <input type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="severityvalue">5</span>
+        </label>
+        <label class="top">Region
+            <select name="region">
+                       <option value="">Select region &#9662;</option>
+                <option value="preston">Preston</option>
+                <option value="soda">Soda Springs</option>
+                <option value="fish">Fish Haven</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Additional Information</legend>
+        <div>Are you in danger?</div>
+              <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+              <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+              <label class="sbs"><input type="radio" name="danger" value="">No</label>
+              <label class="comments">Comments<textarea name="comments" placeholder="Enter additional information or comments"></textarea>
+              </label>  
+    </fieldset>
+    <input type="submit" value="Send Informtion" class="submitBtn">        
+</form>
+</main>
+<footer>
+<p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
+<p id="today"></p><script src="js/datetoday.js"></script>
+</footer>
+<script>
+const today = new Date();
+const dayNumber = today.getDay();
+const element = document.getElementById("message");
+if (dayNumber == 6) {
+    element.classList.add("showme")}
+    else {
+        element.classList.add("hideme")}
+</script>
+<script src="js/responsive.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+<script src="js/severityrating.js"></script>
+</body>
+</html>
