@@ -59,7 +59,7 @@ nav {
 }
 
 .articleimage img {
-	max-width: 90%;
+	max-width: 95%;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -68,7 +68,7 @@ nav {
 	}
 .article p {
 	text-align: left;
-	margin: 1rem;	
+	margin-left: 2%;	
 	}
 
 body {

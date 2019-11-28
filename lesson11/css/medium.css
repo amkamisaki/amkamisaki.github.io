@@ -16,12 +16,17 @@
 	.contact {
 		display: block;
 		}
+	.contact picture {
+		max-width: 50%;
+		padding: 2%;
+	}
 	.contact iframe {
 		float: left;
 		display: block;
 		max-width: 45%;
 		height: 200px;
-		margin-left: 2%;
+		margin-left: 3%;
+		margin-top: .5%;
 		}
 		.social {
 			display: block;
@@ -80,15 +85,19 @@
 	
 	.articleimage {
 		width: 50%;
-		margin: 0 0 0 2%;
+		margin: 0 2% 0 2% ;
 		float: left;
 	}
 	.article div {
 		display: block;
 	}
 	.articleimage img {
-		max-width: 90%;
+		max-width: 100%;
 		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	.article p {
+		font-size: 1.1rem;
 	}
 	
 	}
