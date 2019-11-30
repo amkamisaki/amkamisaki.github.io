@@ -41,7 +41,7 @@ form label.top, form legend, form label.severe, form label.comments, form div {
     display:block;
 }
 .articleimage img {
-    max-width: 100%;
+    max-width: 85%;
     margin-top: 2%;
 }
 .article img {

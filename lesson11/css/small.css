@@ -41,7 +41,7 @@ nav {
 	display: block;
 }
 
-.article, .contact {
+.article, .mainarticle, .contact {
 	margin: 0 auto;
 	text-align: center;
 	border: 1px solid #0713c4;
@@ -50,7 +50,7 @@ nav {
 	max-width: 98%;
 	margin-top: 10px;
 }
-.article {
+.article, .mainarticle {
 	display: block;
 }
 .article img {
@@ -72,7 +72,7 @@ nav {
 	margin-top: 2%;
 	box-shadow: 10 10 20px #b6cfe7;
 	}
-.article p {
+.article p, .mainarticle p {
 	text-align: left;
 	margin-left: 2%;	
 	}
