@@ -83,21 +83,16 @@
 </main>
 <footer>
 <p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
-<p id="today"></p><script src="js/datetoday.js"></script>
+<p id="today"></p>
 </footer>
-<script>
-const today = new Date();
-const dayNumber = today.getDay();
-const element = document.getElementById("message");
-if (dayNumber == 6) {
-    element.classList.add("showme")}
-    else {
-        element.classList.add("hideme")}
-</script>
+
 <script src="js/responsive.js"></script>
 <script src="js/lazyload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script src="js/webfontload.js"></script>
 <script src="js/severityrating.js"></script>
+<script src="js/datetoday.js"></script>
+<script src="js/info.js"></script>
+<script src="js/message.js"></script>
 </body>
 </html>

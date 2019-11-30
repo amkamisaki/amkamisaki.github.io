@@ -259,6 +259,16 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
+.events {
+	text-align: center;
+	align-content: center;
+	padding: 1rem;
+	border: 4px solid #87b9a9;
+	background: radial-gradient(#eee, rgb(71, 135, 151));
+	width: 50%;
+	margin: 2% auto;
+
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
