@@ -91,6 +91,11 @@
 	.article div {
 		display: block;
 	}
+	.article img {
+		float: left;
+		max-width: 50%;
+		padding: 2%;
+	}
 	.articleimage img {
 		max-width: 100%;
 		margin-top: 2%;
@@ -99,7 +104,45 @@
 	.article p {
 		font-size: 1.1rem;
 	}
+	.hero{
+		max-width: 90%;
+		margin: 5% auto;
+	}
+	.heroImage img {
+		max-width: 70% auto;
+	}
 	
+	.forecastContainer {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+    .forecastContainer h2 {
+        margin: 0;
+    }
+    .forecast {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 auto;
+        padding: 15px;
+	}
+	.days {
+        background-color: rgb(91, 187, 131);
+        color: whitesmoke;
+        font-size: 1rem;
+        border: thin solid #02182B;
+    }
+    .weather {
+        border-left: thin solid #02182B;
+        border-right: 1px solid #02182B;
+    }
+    .temp {
+        background-color: rgb(91, 187, 131);
+        color: whitesmoke;
+        border: thin solid #02182B;
+	}
+
 	}
 	
 

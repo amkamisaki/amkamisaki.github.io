@@ -53,6 +53,12 @@ nav {
 .article {
 	display: block;
 }
+.article img {
+	display: block;
+    width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+    }
 
 .articleimage {
 	max-width: 80%;
@@ -139,6 +145,41 @@ body {
 	margin-top: 3%;
 	text-align: center;
 }
+.hero {
+	margin: 0 auto;
+	position: relative;
+}
+.heroImage {
+	width: 98%;
+	margin: 0 0 0 1%;
+}
+.heroImage img {
+	width: 100%;
+}
+.summary {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	font-size: 1rem;
+	background: radial-gradient(#eee, #1b62f0);
+	border: 0.7px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 2px #111;
+	opacity: .8;
+}
+.forecastContainer {
+	display: none;
+	}
+.contact iframe {
+	display: none;
+}
+
+main h2 {
+	font-size: 1.2px;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+}
+
 
 header, footer {
 	background-color: rgb(71, 135, 151);
