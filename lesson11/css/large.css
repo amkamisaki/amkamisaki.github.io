@@ -49,6 +49,11 @@ form label.top, form legend, form label.severe, form label.comments, form div {
     width: 46%;
     max-height: 280px;
 
-    }   
+    } 
+    .fishing {
+    float: left;
+    width: 46%;
+    max-height: 250px;
+    }  
 
 }    

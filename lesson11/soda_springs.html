@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+<title>Soda Springs: Time and Weather Today</title>
+</head>
+
+<body>
+    <div id="message"> Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+<header>
+    <picture>
+<img src="images/logo.png" alt="logo">
+</picture>
+<section class="headings">
+<h1>Time and Weather Today</h1>
+<div class="h">The Weather Informations You Need for Idaho</div>
+</section>
+</header>
+<nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="soda_springs.html">Soda Springs</a></li>
+            <li><a href="fish_haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+<h2><span id = "place">Soda Springs</span>, Idaho</h2>
+<div class="hero">
+        <picture class="heroImage">
+            <source srcset="images/sodaM.jpg" media="(min-width:500px)">
+            <source srcset="images/sodaL.jpg" media="(min-width:800px)">
+            <img src="images/sodaS.jpg" alt="hero image">
+            </picture>
+        <section class="summary">
+        <h3>Weather Summary</h3>
+        <div>Currently: <span id="currently">now</span></div>
+        <div>Temperature: <span id="tempnow">temp</span>&#176;F</div>
+        <div>Wind Chill: <span id="windChill">wind</span></div>
+        <div>Humidity: <span id="humidity">00</span> %</div>
+        <div>Wind Speed: <span id="wind">00</span>mph</div>
+    </section>
+</div>
+
+<div class="forecastContainer">
+    <h2>5 Day Forecast</h2>
+    <div class="forecast">
+        <div class="days"><span id="day1"></span></div>
+                <div class="days"><span id="day2"></span></div>
+                <div class="days"><span id="day3"></span></div>
+                <div class="days"><span id="day4"></span></div>
+                <div class="days"><span id="day5"></span></div>
+
+                <div class="precip"><img src="images/placeholder.png" alt="decription" id="icon1"></div>
+                <div class="precip"><img src="images/placeholder.png" alt="decription" id="icon2"></div>
+                <div class="precip"><img src="images/placeholder.png" alt="decription" id="icon3"></div>
+                <div class="precip"><img src="images/placeholder.png" alt="decription" id="icon4"></div>
+                <div class="precip"><img src="images/placeholder.png" alt="decription" id="icon5"></div>
+
+                <div class="temp"><span id="temp1"></span>&#8457;</div>
+                <div class="temp"><span id="temp2"></span>&#8457;</div>
+                <div class="temp"><span id="temp3"></span>&#8457;</div>
+                <div class="temp"><span id="temp4"></span>&#8457;</div>
+                <div class="temp"><span id="temp5"></span>&#8457;</div>
+    </div>
+</div>      
+<div class="article">
+    <img src="images/peopleplaying.jpg" alt="outdoor playing">
+    <h2>Protect Your Body From the Sun</h2>
+    <p>Many people enjoy being outside. It’s fun to go to the park, work in the yard, or exercise outside.</p>
+    <p>While those are all good things, make sure you keep your skin sun safe while you’re outside. Too much time in the sun can cause many issues. </p>
+    <p>One of the most common is sunburn. Others include spots and wrinkles in areas that have been burned, changes in the texture of your skin, trouble with your eyes, even skin cancer.</p>
+    <p>Without protection, your skin can get sun damage in just 15 minutes. However, it can take up to 12 hours for the damage to appear. 
+    For that reason, keep track of how long you’re in the sun. Reapply sunscreen or go inside if you’ve been outside a long time.
+    </p>
+    </div>
+<div class="events"></div>
+<div class="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4428572848306!2d-111.87647903190724!3d42.097985335951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7eb8bdfb48f%3A0x439a1219b446cf22!2s80%20N%20State%20St%2C%20Preston%2C%20ID%2083263%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1571517828184!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+       <section class="social">
+        <h3>Time and Weather Today</h3>
+    <p>80 N State St, Preston, ID 83263</p>
+    <p>&#9742; 987-9976</p>
+    <p>&#9993; emailto@timeandweathertoday.com</p>
+     <p><a href="https://facebook.com/" target="_blank" ><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+    </p>
+        </section>
+    </div>
+    </main>
+<footer>
+<p>&copy; 2019 | Time and Weather Today | Brazil  | Armando Kamisaki
+<p>Weather information through <a href="http://openweathermap.org/" target="_blank">Open Weather Map</a></p>
+<p id="today"></p>
+</footer>
+<script src="js/datetoday.js"></script>
+<script src="js/responsive.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+<script src="js/weatherInfo_soda.js"></script>
+<script src="js/forecast_soda.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/severityrating.js"></script>
+<script src="js/info.js"></script>
+<script src="js/message.js"></script>
+<script src="js/prestonevents.js"></script>
+</body>
+</html>
