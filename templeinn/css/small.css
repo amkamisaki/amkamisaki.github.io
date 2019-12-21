@@ -1,0 +1,212 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* -----------header--------------*/
+header {
+    padding: .5rem 1%;
+    background-color: #DEB887;
+    height: 9rem;
+    max-width: 100%;
+    }
+header img {
+        float: left;    
+        margin: 0 2% 0 0;
+    }
+header h1 {
+        font-family: Calligraffitti;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+/* ----------navigation-------------*/
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #CD853F;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.choice ul{
+    top: 0;
+    display: none;
+    }
+
+.navigation li a {
+	display: block;
+	color: #fff;
+	padding: 5px;
+	text-align: left;
+	text-decoration: none;
+    font-family: 'Fira Code';
+    border: 1px solid #ccc; 
+}
+.navigation li:hover ul { 
+    display: block; 
+}
+
+.navigation a:hover {
+	color: rgb(211, 20, 20);
+	background-color: #fff;
+	font-weight: 700;
+}
+.active {
+	color: #fff;
+	background-color: #927012;
+}
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+  .responsive li {
+	display: block;
+}
+
+/* ----------main-------------*/
+html{
+    background-color: rgb(241, 182, 142);
+    max-width: 100%;
+    
+}
+.resource {
+    text-align: center;
+    font-family: Niconne;
+}
+.services h1{
+    text-align: center;
+    font-family: Niconne;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.services p {
+    font-family: Fira Code;
+    margin-left: 2%;
+    font-size: 1rem;
+}
+/* ----------botton-------------*/
+.reserve {
+    display: flex;
+}
+.button {
+  float: right;
+  width: 250px;
+  max-width: 100%;
+  margin-right: 10px;
+  margin-top: 1rem;
+  overflow: hidden;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+	font-weight: normal;
+	box-shadow: 0 9px 18px rgba(0,0,0,0.2);
+	text-align: center;
+	border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background: rgb(231, 112, 65);
+  }
+
+/* ----------image-------------*/
+.container {
+	margin: 0 auto;
+	align-content: center; 
+    justify-items: center;
+	display:grid; 
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	max-width: 100%;
+	overflow: auto;
+}
+main h2 {
+    font-family: Niconne;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+.templeact {
+    padding: 1rem;
+    border: 2px solid  rgb(59, 25, 2);
+    width: 100%;
+}
+.templeact img {
+    display: block;
+    width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+figcaption {
+    font-family: Niconne;
+    font-size: 1.5rem;
+    margin-left: 15%;
+}
+/* ----------SP Temple-------------*/
+.sptemple {
+    padding: 1rem;
+    border: 2px solid  rgb(59, 25, 2);
+}
+.spimg img{
+    max-width: 96%;
+    align-content: center;
+    margin-left: 2%;
+}
+.info h3 {
+    font-family: Niconne;
+    font-size: 2rem;
+    margin: 2%;
+  }
+  .info p {
+    font-family: Niconne;
+    font-size: 1.5rem;
+    margin: 1%;
+  }
+  /* ----------Contact Info-------------*/
+  .contact {
+    padding: 1rem;
+    border: 2px solid  rgb(59, 25, 2);
+    width: 100%;
+    margin-top: 3%;
+  }
+  .maincontact h3, h4, .social h3, a {
+      font-family: Fira Code;
+  }
+  .socialimg {
+    list-style-type: none;
+    display: flex;
+    margin-left: 2%;
+  }
+  .socialimg li {
+      padding: 1%;
+      margin-left: 1%;
+  }
+  .social h3 {
+      color: rgb(124, 38, 3);
+  }
+/* ----------Footer-------------*/
+footer {
+    background-color: #CD853F;
+    height: 80px;
+}
+footer p {
+    padding: .5rem;
+    margin-left: 2%;
+    margin-bottom: 1rem;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  

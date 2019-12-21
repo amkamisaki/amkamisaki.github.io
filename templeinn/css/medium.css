@@ -1,0 +1,47 @@
+@media only screen and (min-width: 40em) {
+    /* ----------navigation-------------*/
+    .navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    .choice ul {
+        display: none;
+    }
+    .choice:hover ul { 
+        display: block; 
+    }
+    /* ----------image-------------*/
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px,1fr 1fr));
+        grid-gap: 2rem;
+        max-width: 100%;
+    }
+    .sptemple {
+        display: flex;
+    }
+    .spimg {
+        width: 60%;
+    }
+    .spimg img {
+        float: right;
+    }
+    .info {
+        max-width: 50%;
+    }
+    /* ----------Contact Info-------------*/
+    .contact {
+        display: flex;
+    }
+    .maincontact, .social {
+        width: 50%;
+        align-content: center;
+    }
+
+}

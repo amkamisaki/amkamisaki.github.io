@@ -1,0 +1,70 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* -----------header--------------*/
+header {
+    padding: .5rem 1%;
+    background-color: #DEB887;
+    height: 10rem;
+    max-width: 100%;
+    }
+header img {
+        float: left;
+        margin: 0 2% 0 0;
+    }
+header h1 {
+        font-family: Calligraffitti;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+/* ----------navigation-------------*/
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #CD853F;
+}
+.navigation {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	position: relative;
+}
+.navigation li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+    }
+.navigation li a {
+	display: block;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+    font-family: 'Fira Code';
+    border: 1px solid #ccc; 
+}
+.navigation li:hover ul { 
+    display: block; 
+}
+
+.navigation a:hover {
+	color: rgb(211, 20, 20);
+	background-color: #fff;
+	font-weight: 700;
+}
+.active {
+	color: #fff;
+	background-color: #927012;
+}
+
